@@ -1,0 +1,729 @@
+index 1
+ 'C' -> UCT
+ 'c' -> Iceland
+ 'g' -> Egypt
+ 'T' -> UTC
+ 'w' -> Kwajalein
+ 'R' -> PRC
+ '-' -> W-SU
+ 'n' -> index 9
+  't' -> Indian/Antananarivo
+  'c' -> Indian/Cocos
+  'm' -> Indian/Comoro
+  'y' -> Indian/Mayotte
+  'h' -> Indian/Mahe
+  'l' -> Indian/Maldives
+  '\x00' -> Universal
+  'u' -> index 7
+   'R' -> Indian/Reunion
+   'M' -> Indian/Mauritius
+  'a' -> index 13
+   'c' -> Antarctica/Macquarie
+   'l' -> Antarctica/Palmer
+   '\x00' -> Indian/Chagos
+   'w' -> Antarctica/Mawson
+   't' -> Antarctica/Rothera
+   'u' -> Antarctica/South_Pole
+   'v' -> Antarctica/Davis
+   'm' -> Antarctica/DumontDUrville
+   'M' -> Antarctica/McMurdo
+   'o' -> index 11
+    'S' -> Antarctica/Syowa
+    'T' -> Antarctica/Troll
+   's' -> index 11
+    'C' -> Antarctica/Casey
+    'V' -> Antarctica/Vostok
+  'r' -> index 7
+   'C' -> Indian/Christmas
+   'K' -> Indian/Kerguelen
+ 'm' -> index 11
+  'L' -> America/St_Lucia
+  'V' -> America/St_Vincent
+  'S' -> America/El_Salvador
+  'y' -> America/Guayaquil
+  'f' -> America/Swift_Current
+  'P' -> America/La_Paz
+  'J' -> America/St_Johns
+  'x' -> America/Knox_IN
+  'K' -> America/St_Kitts
+  'B' -> America/St_Barthelemy
+  'T' -> America/St_Thomas
+  'i' -> index 10
+   'x' -> America/Mexico_City
+   'p' -> America/Nipigon
+   'c' -> America/Recife
+   'm' -> America/Dominica
+   'u' -> America/Louisville
+   'g' -> America/Regina
+   't' -> America/Antigua
+   'l' -> index 8
+    'B' -> America/Belize
+    'H' -> America/Halifax
+   'h' -> index 13
+    '\x00' -> America/Bahia
+    '_' -> America/Bahia_Banderas
+   'd' -> index 16
+    'M' -> America/Indiana/Marengo
+    'P' -> America/Indiana/Petersburg
+    'T' -> America/Indiana/Tell_City
+    'W' -> America/Indiana/Winamac
+    'o' -> America/Indianapolis
+    'I' -> America/Indiana/Indianapolis
+    'K' -> America/Indiana/Knox
+    'V' -> index 17
+     'i' -> America/Indiana/Vincennes
+     'e' -> America/Indiana/Vevay
+   'r' -> index 9
+    'e' -> America/Merida
+    'a' -> America/Marigot
+  'l' -> index 8
+   'T' -> America/Thule
+   'Y' -> America/Yellowknife
+   'I' -> America/Iqaluit
+   'K' -> America/Kralendijk
+   'M' -> America/Metlakatla
+  'c' -> index 12
+   'a' -> America/Chicago
+   'e' -> America/Glace_Bay
+   't' -> America/Moncton
+   'o' -> America/Vancouver
+   'u' -> America/Cancun
+  'h' -> index 8
+   'A' -> America/Anchorage
+   'C' -> America/Chihuahua
+  'b' -> index 8
+   'A' -> America/Aruba
+   'B' -> America/Barbados
+   'C' -> America/Cambridge_Bay
+  'e' -> index 8
+   'B' -> America/Belem
+   'C' -> America/Cayenne
+   'E' -> America/Ensenada
+   'J' -> America/Juneau
+   'L' -> America/Lower_Princes
+   'P' -> America/Phoenix
+   'M' -> America/Maceio
+   'N' -> America/Nome
+   'A' -> index 20
+    'j' -> America/Argentina/Jujuy
+    'c' -> America/Argentina/Tucuman
+    'e' -> America/Argentina/Buenos_Aires
+    'm' -> America/Argentina/ComodRivadavia
+    'r' -> America/Argentina/Cordoba
+    'l' -> America/Argentina/Salta
+    '_' -> America/Argentina/La_Rioja
+    't' -> America/Argentina/Catamarca
+    'h' -> America/Argentina/Ushuaia
+    'o' -> America/Argentina/Rio_Gallegos
+    'n' -> index 22
+     'L' -> America/Argentina/San_Luis
+     'o' -> America/Argentina/Mendoza
+     'J' -> America/Argentina/San_Juan
+  'n' -> index 9
+   'j' -> America/Ojinaga
+   'a' -> America/Rainy_River
+   'h' -> America/Thunder_Bay
+   'i' -> America/Winnipeg
+   's' -> America/Asuncion
+   'l' -> America/Blanc-Sablon
+   'u' -> America/Buenos_Aires
+   'r' -> index 10
+    'a' -> America/Grand_Turk
+    'e' -> America/Grenada
+  'm' -> index 8
+   'C' -> America/Cayman
+   'D' -> America/Danmarkshavn
+   'H' -> America/Hermosillo
+  'k' -> index 9
+   'a' -> America/Rankin_Inlet
+   'i' -> America/Sitka
+   'd' -> America/Adak
+   't' -> America/Atikokan
+  's' -> index 8
+   'B' -> America/Boise
+   'C' -> America/Creston
+   'G' -> America/Goose_Bay
+   'N' -> America/Nassau
+   'D' -> index 14
+    '\x00' -> America/Dawson
+    '_' -> America/Dawson_Creek
+  't' -> index 14
+   'b' -> America/Godthab
+   'A' -> America/Porto_Acre
+   'o' -> America/Whitehorse
+   'R' -> America/Costa_Rica
+   'I' -> America/Santa_Isabel
+   'g' -> America/Santiago
+   'f' -> America/Port_of_Spain
+   'u' -> America/Port-au-Prince
+   'V' -> America/Porto_Velho
+   'e' -> index 13
+    'l' -> America/Fortaleza
+    'r' -> America/Santarem
+    'N' -> America/Fort_Nelson
+   'k' -> index 17
+    'L' -> America/Kentucky/Louisville
+    'M' -> America/Kentucky/Monticello
+   'a' -> index 8
+    'T' -> America/Tortola
+    'F' -> America/Fort_Wayne
+    'G' -> America/Guatemala
+    'M' -> America/Montreal
+   'D' -> index 21
+    'B' -> America/North_Dakota/Beulah
+    'C' -> America/North_Dakota/Center
+    'N' -> America/North_Dakota/New_Salem
+    '\x00' -> America/Santo_Domingo
+   'i' -> index 9
+    'o' -> America/Montevideo
+    'a' -> America/Martinique
+   'r' -> index 12
+    'e' -> America/Monterrey
+    's' -> America/Montserrat
+  'v' -> index 8
+   'D' -> America/Denver
+   'I' -> America/Inuvik
+  'u' -> index 12
+   'a' -> America/Tijuana
+   't' -> America/Yakutat
+   'i' -> America/Anguilla
+   'n' -> America/Eirunepe
+   'y' -> America/Jujuy
+   'e' -> America/Miquelon
+   'c' -> America/Tegucigalpa
+  'o' -> index 8
+   'R' -> America/Resolute
+   'T' -> America/Toronto
+   'B' -> America/Bogota
+   'E' -> America/Edmonton
+   'M' -> America/Menominee
+   'N' -> America/Noronha
+  'g' -> index 8
+   'A' -> America/Araguaina
+   'P' -> America/Pangnirtung
+   'V' -> America/Virgin
+  'r' -> index 8
+   'D' -> America/Detroit
+   'P' -> America/Puerto_Rico
+   'S' -> America/Scoresbysund
+  'p' -> index 8
+   'C' -> America/Campo_Grande
+   'S' -> America/Shiprock
+  'd' -> index 8
+   'C' -> America/Cordoba
+   'G' -> America/Guadeloupe
+   'M' -> America/Mendoza
+  'a' -> index 8
+   'J' -> America/Jamaica
+   'L' -> America/Lima
+   'R' -> America/Rosario
+   'A' -> America/Atka
+   'G' -> America/Guyana
+   'H' -> America/Havana
+   'C' -> index 14
+    '\x00' -> America/Cuiaba
+    'o' -> America/Curacao
+    's' -> America/Caracas
+    'r' -> America/Catamarca
+    'H' -> America/Coral_Harbour
+   'M' -> index 12
+    'g' -> America/Managua
+    'u' -> America/Manaus
+    'm' -> America/Matamoros
+    't' -> America/Mazatlan
+   'P' -> index 10
+    'r' -> America/Paramaribo
+    'n' -> America/Panama
+  '_' -> index 8
+   'L' -> America/Los_Angeles
+   'N' -> America/New_York
+   'R' -> America/Rio_Branco
+   'S' -> America/Sao_Paulo
+   'B' -> America/Boa_Vista
+ 'S' -> index 3
+  '7' -> MST7MDT
+  'C' -> US/Central
+  'H' -> US/Hawaii
+  'S' -> US/Samoa
+  '6' -> CST6CDT
+  '5' -> EST5EDT
+  '8' -> PST8PDT
+  'I' -> US/Indiana-Starke
+  'M' -> index 4
+   'i' -> US/Michigan
+   'o' -> US/Mountain
+  'P' -> index 10
+   '-' -> US/Pacific-New
+   '\x00' -> US/Pacific
+  'E' -> index 7
+   '-' -> US/East-Indiana
+   'e' -> US/Eastern
+  '\x00' -> index 0
+   'E' -> EST
+   'H' -> HST
+   'M' -> MST
+  'A' -> index 5
+   'a' -> US/Alaska
+   'e' -> US/Aleutian
+   'i' -> US/Arizona
+ 'u' -> index 0
+  'T' -> Turkey
+  'Z' -> Zulu
+  'C' -> Cuba
+  'E' -> index 7
+   'J' -> Europe/Jersey
+   'H' -> Europe/Helsinki
+   'N' -> Europe/Nicosia
+   'O' -> Europe/Oslo
+   'D' -> Europe/Dublin
+   'U' -> Europe/Uzhgorod
+   'W' -> Europe/Warsaw
+   'K' -> index 8
+    'a' -> Europe/Kaliningrad
+    'i' -> Europe/Kiev
+   'G' -> index 8
+    'i' -> Europe/Gibraltar
+    'u' -> Europe/Guernsey
+   'B' -> index 10
+    'l' -> Europe/Berlin
+    't' -> Europe/Bratislava
+    's' -> Europe/Brussels
+    'h' -> Europe/Bucharest
+    'a' -> Europe/Budapest
+    'i' -> Europe/Busingen
+    'f' -> Europe/Belfast
+    'g' -> Europe/Belgrade
+   'I' -> index 9
+    't' -> Europe/Istanbul
+    'l' -> Europe/Isle_of_Man
+   'P' -> index 8
+    'a' -> Europe/Paris
+    'o' -> Europe/Podgorica
+    'r' -> Europe/Prague
+   'S' -> index 10
+    'c' -> Europe/Stockholm
+    '_' -> Europe/San_Marino
+    'f' -> Europe/Simferopol
+    'p' -> Europe/Skopje
+    'i' -> Europe/Sofia
+    'a' -> index 9
+     'm' -> Europe/Samara
+     'r' -> Europe/Sarajevo
+   'L' -> index 8
+    'o' -> Europe/London
+    'u' -> Europe/Luxembourg
+    'i' -> Europe/Lisbon
+    'j' -> Europe/Ljubljana
+   'V' -> index 11
+    'c' -> Europe/Vatican
+    'n' -> Europe/Vienna
+    'i' -> Europe/Vilnius
+    'o' -> Europe/Volgograd
+    'z' -> Europe/Vaduz
+   'T' -> index 11
+    'i' -> Europe/Tallinn
+    'n' -> Europe/Tirane
+    's' -> Europe/Tiraspol
+   'A' -> index 8
+    'm' -> Europe/Amsterdam
+    'n' -> Europe/Andorra
+    't' -> Europe/Athens
+   'C' -> index 8
+    'o' -> Europe/Copenhagen
+    'h' -> Europe/Chisinau
+   'Z' -> index 9
+    'g' -> Europe/Zagreb
+    'p' -> Europe/Zaporozhye
+    'r' -> Europe/Zurich
+   'M' -> index 10
+    'c' -> Europe/Moscow
+    'r' -> Europe/Madrid
+    't' -> Europe/Malta
+    'i' -> Europe/Mariehamn
+    's' -> Europe/Minsk
+    'a' -> Europe/Monaco
+   'R' -> index 8
+    'i' -> Europe/Riga
+    'o' -> Europe/Rome
+  'A' -> index 10
+   'Q' -> Australia/Queensland
+   'V' -> Australia/Victoria
+   'H' -> Australia/Hobart
+   'D' -> Australia/Darwin
+   'E' -> Australia/Eucla
+   'T' -> Australia/Tasmania
+   'Y' -> Australia/Yancowinna
+   'M' -> Australia/Melbourne
+   'P' -> Australia/Perth
+   'W' -> Australia/West
+   'S' -> index 11
+    'o' -> Australia/South
+    'y' -> Australia/Sydney
+   'C' -> index 11
+    'u' -> Australia/Currie
+    'a' -> Australia/Canberra
+   'A' -> index 11
+    'C' -> Australia/ACT
+    'd' -> Australia/Adelaide
+   'B' -> index 12
+    'o' -> Australia/Broken_Hill
+    'i' -> Australia/Brisbane
+   'L' -> index 11
+    'H' -> Australia/LHI
+    'i' -> Australia/Lindeman
+    'o' -> Australia/Lord_Howe
+   'N' -> index 11
+    'S' -> Australia/NSW
+    'o' -> Australia/North
+ 'O' -> index 2
+  'C' -> ROC
+  'K' -> ROK
+ 'e' -> index 11
+  'N' -> Mexico/BajaNorte
+  'S' -> Mexico/BajaSur
+  'r' -> Mexico/General
+ 'M' -> index 3
+  '+' -> GMT+0
+  '-' -> GMT-0
+  '0' -> GMT0
+  '\x00' -> GMT
+ 'r' -> index 0
+  'G' -> Greenwich
+  'I' -> Iran
+  'A' -> Arctic/Longyearbyen
+  'B' -> index 7
+   'W' -> Brazil/West
+   'A' -> Brazil/Acre
+   'D' -> Brazil/DeNoronha
+   'E' -> Brazil/East
+ 'i' -> index 0
+  'E' -> Eire
+  'L' -> Libya
+  'S' -> Singapore
+ 'a' -> index 2
+  'm' -> Jamaica
+  'p' -> Japan
+  'v' -> Navajo
+  'n' -> index 7
+   'P' -> Canada/Pacific
+   'S' -> Canada/Saskatchewan
+   'Y' -> Canada/Yukon
+   'A' -> Canada/Atlantic
+   'C' -> Canada/Central
+   'M' -> Canada/Mountain
+   'N' -> Canada/Newfoundland
+   'E' -> index 11
+    '-' -> Canada/East-Saskatchewan
+    'e' -> Canada/Eastern
+  'c' -> index 11
+   'd' -> Pacific/Guadalcanal
+   'l' -> Pacific/Wallis
+   '\x00' -> Pacific/Yap
+   'b' -> Pacific/Gambier
+   'w' -> Pacific/Midway
+   'f' -> Pacific/Norfolk
+   'j' -> Pacific/Kwajalein
+   'p' -> Pacific/Saipan
+   'c' -> Pacific/Pitcairn
+   'q' -> Pacific/Marquesas
+   't' -> index 9
+    'h' -> Pacific/Chatham
+    'a' -> Pacific/Easter
+    'f' -> Pacific/Efate
+    'o' -> Pacific/Port_Moresby
+   'g' -> index 8
+    'B' -> Pacific/Bougainville
+    'T' -> Pacific/Tongatapu
+   'a' -> index 12
+    'f' -> Pacific/Funafuti
+    'u' -> Pacific/Palau
+    'w' -> Pacific/Tarawa
+    '\x00' -> Pacific/Apia
+    'o' -> Pacific/Fakaofo
+    'p' -> index 8
+     'G' -> Pacific/Galapagos
+     'P' -> Pacific/Ponape
+   'm' -> index 8
+    'G' -> Pacific/Guam
+    'N' -> Pacific/Noumea
+   'u' -> index 8
+    'M' -> Pacific/Majuro
+    'C' -> Pacific/Chuuk
+   'n' -> index 8
+    'J' -> Pacific/Johnston
+    'P' -> Pacific/Pohnpei
+   'i' -> index 8
+    'T' -> Pacific/Tahiti
+    'F' -> Pacific/Fiji
+    'K' -> Pacific/Kiritimati
+   'o' -> index 8
+    'R' -> Pacific/Rarotonga
+    'S' -> Pacific/Samoa
+    'H' -> Pacific/Honolulu
+    'P' -> Pacific/Pago_Pago
+   'k' -> index 8
+    'A' -> Pacific/Auckland
+    'T' -> Pacific/Truk
+   'e' -> index 8
+    'N' -> Pacific/Niue
+    'W' -> Pacific/Wake
+    'E' -> Pacific/Enderbury
+   'r' -> index 8
+    'K' -> Pacific/Kosrae
+    'N' -> Pacific/Nauru
+ 'E' -> index 0
+  'M' -> MET
+  'W' -> WET
+  'C' -> CET
+  'E' -> EET
+ 'Z' -> index 2
+  '\x00' -> NZ
+  '-' -> NZ-CHAT
+ 'B' -> index 2
+  '\x00' -> GB
+  '-' -> GB-Eire
+ 'o' -> index 2
+  'n' -> Hongkong
+  'l' -> Poland
+  'r' -> Portugal
+  's' -> posixrules
+ 'f' -> index 7
+  'E' -> Africa/El_Aaiun
+  'S' -> Africa/Sao_Tome
+  'F' -> Africa/Freetown
+  'G' -> Africa/Gaborone
+  'H' -> Africa/Harare
+  'P' -> Africa/Porto-Novo
+  'O' -> Africa/Ouagadougou
+  'W' -> Africa/Windhoek
+  'B' -> index 10
+   'g' -> Africa/Bangui
+   'j' -> Africa/Banjul
+   's' -> Africa/Bissau
+   'n' -> Africa/Blantyre
+   'z' -> Africa/Brazzaville
+   'u' -> Africa/Bujumbura
+   'a' -> Africa/Bamako
+  'L' -> index 10
+   'a' -> Africa/Lusaka
+   'o' -> Africa/Lagos
+   'r' -> Africa/Libreville
+   'e' -> Africa/Lome
+   'n' -> Africa/Luanda
+   'u' -> Africa/Lubumbashi
+  'D' -> index 9
+   'r' -> Africa/Dar_es_Salaam
+   'i' -> Africa/Djibouti
+   'u' -> Africa/Douala
+   'k' -> Africa/Dakar
+  'A' -> index 8
+   'b' -> Africa/Abidjan
+   'c' -> Africa/Accra
+   'd' -> Africa/Addis_Ababa
+   'l' -> Africa/Algiers
+   's' -> index 10
+    'e' -> Africa/Asmera
+    'a' -> Africa/Asmara
+  'J' -> index 8
+   'u' -> Africa/Juba
+   'o' -> Africa/Johannesburg
+  'T' -> index 8
+   'i' -> Africa/Timbuktu
+   'r' -> Africa/Tripoli
+   'u' -> Africa/Tunis
+  'N' -> index 8
+   'a' -> Africa/Nairobi
+   'd' -> Africa/Ndjamena
+   'i' -> Africa/Niamey
+   'o' -> Africa/Nouakchott
+  'M' -> index 9
+   'p' -> Africa/Maputo
+   's' -> Africa/Maseru
+   'a' -> Africa/Mbabane
+   'g' -> Africa/Mogadishu
+   'n' -> Africa/Monrovia
+   'l' -> Africa/Malabo
+  'K' -> index 9
+   'm' -> Africa/Kampala
+   'a' -> Africa/Khartoum
+   'g' -> Africa/Kigali
+   'n' -> Africa/Kinshasa
+  'C' -> index 9
+   'i' -> Africa/Cairo
+   's' -> Africa/Casablanca
+   'u' -> Africa/Ceuta
+   'n' -> Africa/Conakry
+ 'h' -> index 6
+  'C' -> Chile/Continental
+  'E' -> Chile/EasterIsland
+ 's' -> index 5
+  'G' -> Asia/Gaza
+  'l' -> Israel
+  'I' -> index 6
+   's' -> Asia/Istanbul
+   'r' -> Asia/Irkutsk
+  'N' -> index 11
+   'a' -> Asia/Nicosia
+   'z' -> Asia/Novokuznetsk
+   'b' -> Asia/Novosibirsk
+  'J' -> index 7
+   'k' -> Asia/Jakarta
+   'y' -> Asia/Jayapura
+   'r' -> Asia/Jerusalem
+  'B' -> index 7
+   'u' -> Asia/Brunei
+   'g' -> Asia/Baghdad
+   'h' -> Asia/Bahrain
+   'k' -> Asia/Baku
+   'n' -> Asia/Bangkok
+   'i' -> Asia/Beirut
+   's' -> Asia/Bishkek
+  'T' -> index 9
+   'o' -> Asia/Tokyo
+   'e' -> Asia/Taipei
+   'k' -> Asia/Tashkent
+   'i' -> Asia/Tbilisi
+   'a' -> Asia/Tehran
+   'A' -> Asia/Tel_Aviv
+   'b' -> Asia/Thimbu
+   'p' -> Asia/Thimphu
+  'K' -> index 7
+   'w' -> Asia/Kuwait
+   'b' -> Asia/Kabul
+   'r' -> Asia/Karachi
+   's' -> Asia/Kashgar
+   'm' -> Asia/Kamchatka
+   'l' -> Asia/Kolkata
+   'c' -> Asia/Kuching
+   't' -> index 8
+    'h' -> Asia/Kathmandu
+    'm' -> Asia/Katmandu
+   'a' -> index 6
+    'h' -> Asia/Khandyga
+    'r' -> Asia/Krasnoyarsk
+    'u' -> Asia/Kuala_Lumpur
+  'C' -> index 10
+   '\x00' -> Asia/Chita
+   'a' -> Asia/Choibalsan
+   'q' -> Asia/Chongqing
+   'k' -> Asia/Chungking
+   'b' -> Asia/Colombo
+   't' -> Asia/Calcutta
+  'S' -> index 7
+   'a' -> Asia/Shanghai
+   'n' -> Asia/Singapore
+   'e' -> Asia/Srednekolymsk
+   'i' -> Asia/Saigon
+   'k' -> Asia/Sakhalin
+   'm' -> Asia/Samarkand
+   'o' -> Asia/Seoul
+  'O' -> index 6
+   'r' -> Asia/Oral
+   'm' -> Asia/Omsk
+  'R' -> index 6
+   'a' -> Asia/Rangoon
+   'i' -> Asia/Riyadh
+  'D' -> index 7
+   'a' -> Asia/Dhaka
+   'l' -> Asia/Dili
+   'b' -> Asia/Dubai
+   's' -> Asia/Dushanbe
+   'c' -> Asia/Dacca
+   'm' -> Asia/Damascus
+  'U' -> index 9
+   'g' -> Asia/Ujung_Pandang
+   'n' -> Asia/Ulaanbaatar
+   '_' -> Asia/Ulan_Bator
+   'q' -> Asia/Urumqi
+   'N' -> Asia/Ust-Nera
+  'V' -> index 6
+   'i' -> Asia/Vientiane
+   'l' -> Asia/Vladivostok
+  'Y' -> index 8
+   'u' -> Asia/Yakutsk
+   'a' -> Asia/Yekaterinburg
+   'e' -> Asia/Yerevan
+  'H' -> index 7
+   'r' -> Asia/Harbin
+   'b' -> Asia/Hebron
+   '_' -> Asia/Ho_Chi_Minh
+   'n' -> Asia/Hong_Kong
+   'v' -> Asia/Hovd
+  'A' -> index 9
+   '\x00' -> Asia/Aden
+   't' -> Asia/Almaty
+   'n' -> Asia/Amman
+   'y' -> Asia/Anadyr
+   'u' -> Asia/Aqtau
+   'b' -> Asia/Aqtobe
+   'a' -> Asia/Ashgabat
+   'h' -> Asia/Ashkhabad
+  'Q' -> index 6
+   'a' -> Asia/Qatar
+   'y' -> Asia/Qyzylorda
+  'P' -> index 6
+   'h' -> Asia/Phnom_Penh
+   'o' -> Asia/Pontianak
+   'y' -> Asia/Pyongyang
+  'M' -> index 9
+   'l' -> Asia/Manila
+   'a' -> Asia/Muscat
+   'o' -> Asia/Macao
+   'u' -> Asia/Macau
+   'd' -> Asia/Magadan
+   's' -> Asia/Makassar
+ 't' -> index 7
+  '0' -> Etc/GMT0
+  'e' -> Etc/Greenwich
+  'v' -> Etc/Universal
+  'u' -> Etc/Zulu
+  'c' -> index 13
+   'j' -> Atlantic/Reykjavik
+   'u' -> Atlantic/Bermuda
+   '_' -> Atlantic/Cape_Verde
+   'i' -> Atlantic/Madeira
+   'h' -> Atlantic/South_Georgia
+   'M' -> Atlantic/Jan_Mayen
+   'o' -> Atlantic/Faeroe
+   'l' -> Atlantic/Stanley
+   'r' -> Atlantic/Canary
+   'e' -> index 9
+    'S' -> Atlantic/St_Helena
+    'A' -> Atlantic/Azores
+    'F' -> Atlantic/Faroe
+  '\x00' -> index 5
+   'T' -> Etc/UTC
+   'M' -> Etc/GMT
+   'C' -> Etc/UCT
+  '+' -> index 8
+   '0' -> Etc/GMT+0
+   '3' -> Etc/GMT+3
+   '2' -> Etc/GMT+2
+   '4' -> Etc/GMT+4
+   '5' -> Etc/GMT+5
+   '6' -> Etc/GMT+6
+   '7' -> Etc/GMT+7
+   '8' -> Etc/GMT+8
+   '9' -> Etc/GMT+9
+   '1' -> index 9
+    '0' -> Etc/GMT+10
+    '1' -> Etc/GMT+11
+    '2' -> Etc/GMT+12
+    '\x00' -> Etc/GMT+1
+  '-' -> index 8
+   '5' -> Etc/GMT-5
+   '6' -> Etc/GMT-6
+   '0' -> Etc/GMT-0
+   '7' -> Etc/GMT-7
+   '2' -> Etc/GMT-2
+   '3' -> Etc/GMT-3
+   '4' -> Etc/GMT-4
+   '8' -> Etc/GMT-8
+   '9' -> Etc/GMT-9
+   '1' -> index 9
+    '2' -> Etc/GMT-12
+    '3' -> Etc/GMT-13
+    '4' -> Etc/GMT-14
+    '\x00' -> Etc/GMT-1
+    '0' -> Etc/GMT-10
+    '1' -> Etc/GMT-11
