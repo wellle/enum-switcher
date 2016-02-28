@@ -2,12 +2,17 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"log"
 	"os"
 )
 
 func main() {
+	var format string
+	flag.StringVar(&format, "format", "", "output format")
+	flag.Parse()
+
 	// read lines
 	lines := []string{}
 	scanner := bufio.NewScanner(os.Stdin)
@@ -20,12 +25,12 @@ func main() {
 	}
 
 	// check there are no duplicates
-	lineMap := map[string]struct{}{}
-	for _, line := range lines {
-		if _, ok := lineMap[line]; ok {
+	lineIndexes := map[string]int{}
+	for i, line := range lines {
+		if _, ok := lineIndexes[line]; ok {
 			log.Panicf("found duplicate line %q", line)
 		}
-		lineMap[line] = struct{}{}
+		lineIndexes[line] = i
 	}
 
 	// get character distributions
@@ -36,8 +41,14 @@ func main() {
 		strategy, score, _ := distributions.Strategy()
 		if strategy != nil {
 			log.Printf("found strategy with %.2f expected checks", score)
-			fmt.Print(strategy.String(" "))
-			break
+
+			if format == "c" {
+				fmt.Print(FormatC(strategy, lineIndexes))
+			} else {
+				fmt.Print(strategy.String(" "))
+			}
+
+			return
 		}
 
 		log.Printf("nothing found yet, trying harder...")
