@@ -84,3 +84,13 @@ $ cat example/timezones | enum-switcher -format c > example/timezones.c
 
 - find the full input of 584 timezones in [`example/timezones`](example/timezones)
 - and the full generated conversion function in [`example/timezones.c`](example/timezones.c)
+
+## Paranoid
+
+If you need to handle all possible input, not only the given strings, then you can't take full advantage of the above optimizations. Use the `-paranoid` flag to generate the full tree:
+
+```
+$ cat example/timezones | enum-switcher -format c -paranoid > example/timezones-paranoid.c
+```
+
+You can see the result of that in [`example/timezones-paranoid.c`](example/timezones-paranoid.c)
