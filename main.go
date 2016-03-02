@@ -10,7 +10,9 @@ import (
 
 func main() {
 	var format string
+	var paranoid bool
 	flag.StringVar(&format, "format", "", "output format")
+	flag.BoolVar(&paranoid, "paranoid", false, "handle any input")
 	flag.Parse()
 
 	// read lines
@@ -33,6 +35,12 @@ func main() {
 		lineIndexes[line] = i
 	}
 
+	if paranoid {
+		strategy := paranoidStrategy(lines)
+		printStategy(strategy, format, lineIndexes)
+		return
+	}
+
 	// get character distributions
 	distributions := NewDistributions(lines)
 
@@ -42,16 +50,49 @@ func main() {
 		if strategy != nil {
 			log.Printf("found strategy with %.2f expected checks", score)
 
-			if format == "c" {
-				fmt.Print(FormatC(strategy, lineIndexes))
-			} else {
-				fmt.Print(strategy.String(" "))
-			}
-
+			printStategy(strategy, format, lineIndexes)
 			return
 		}
 
 		log.Printf("nothing found yet, trying harder...")
 		distributions.GoDeeper()
+	}
+}
+
+func paranoidStrategy(lines []string) *Strategy {
+	strategy := &Strategy{
+		Index: 0,
+	}
+
+	for _, line := range lines {
+		strat := strategy
+		for _, r := range line {
+			if strat.Strategies == nil {
+				strat.Strategies = map[rune]*Strategy{}
+			}
+
+			child := strat.Strategies[r]
+			if child == nil {
+				child = &Strategy{Index: strat.Index + 1}
+				strat.Strategies[r] = child
+			}
+
+			strat = child
+		}
+		if strat.Strategies == nil {
+			strat.Strategies = map[rune]*Strategy{}
+		}
+
+		strat.Lines = map[rune]string{'\x00': line}
+	}
+
+	return strategy
+}
+
+func printStategy(strategy *Strategy, format string, lineIndexes map[string]int) {
+	if format == "c" {
+		fmt.Print(FormatC(strategy, lineIndexes))
+	} else {
+		fmt.Print(strategy.String(" "))
 	}
 }
